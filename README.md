@@ -5,6 +5,11 @@ Applicable conditions: Temporary meeting is very urgent or the meeting order of 
 >* 1.The fastest way to pull in people or video hosts
 >* 2.Can quickly know if the participants are ready
 
+# Before use
+> Before using BOT, please understand the following pages:
+> See "Creating Chatbots for Webex Teams (Node.js)"
+> ttps://developer.cisco.com/learning/tracks/collab-cloud
+
 # Main documents:
 >* .CMSBot.js : main program
 >* .env : Parameter content
