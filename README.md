@@ -16,7 +16,7 @@ Applicable conditions: Temporary meeting is very urgent or the meeting order of 
 > botkit
 
 # Installation
-Clone the repo git clone https://github.com/ciscocms/auto-dial.git
+Clone the repo git clone https://github.com/isenlin/webexteams-cms-botkit.git
 Install the node modules used in the project npm install
 Edit config.js with your deployment specific details
 Alternately you can set the following environment variables to configure the service. CMS_HOST CMS_API_USERNAME CMS_API_PASSWORD API_PORT MONGO_HOST E.g.; export CMS_HOST="cms.empire.net:444"
