@@ -8,7 +8,7 @@ Applicable conditions: Temporary meeting is very urgent or the meeting order of 
 # Before use
 > Before using BOT, please understand the following pages:
 > See "Creating Chatbots for Webex Teams (Node.js)"
-> ttps://developer.cisco.com/learning/tracks/collab-cloud
+> https://developer.cisco.com/learning/tracks/collab-cloud
 
 # Main documents:
 >* .CMSBot.js : main program
