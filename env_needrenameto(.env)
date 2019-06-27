@@ -1,0 +1,17 @@
+ACCESS_TOKEN=YzkxNDU1NGYtNTk4ZC00OTBkLWI2YjYtMGE1MTdkZWRiMmY1MTZhYjY4NjktMzQ1_PF84_7c44810e-80a9-4cdc-889d-549d10bde5cf
+DEBUG=sparkbot*,samples*
+BOT_NICKNAME=EverrichBot
+SECRET=Not that secret !
+PUBLIC_URL=https://60.251.101.227
+CMS_ROOM_ID=9625d67c-ec17-4866-b1f1-19a1c2b3f3bb
+CMS_ROOMNAME=vmsuser1.Room
+CMS_USERNAME=admin
+CMS_PASSWORD=cisco
+CMS_HTTPS=https://vms.vega-global.com.tw:446
+#cmsparticipant=https://vms.vega-global.com.tw:446/api/v1/calls/9625d67c-ec17-4866-b1f1-19a1c2b3f3bb/participants
+#WEBHOOK_NAME=built with BotKit (development)
+#PORT=3000
+#NODE_ENV=production
+owner=Isen Lin <isen.lin@vega-global.com>
+platform=Webex Teams
+support=isen.lin <mailto:isen.lin@vega-global.com>
