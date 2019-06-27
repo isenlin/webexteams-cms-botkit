@@ -18,21 +18,24 @@ Applicable conditions: Temporary meeting is very urgent or the meeting order of 
 >* botkit
 
 # Installation
-Clone the repo git clone https://github.com/isenlin/webexteams-cms-botkit.git
-Install the node modules used in the project npm install
-Edit env_needrenameto(.env) with your deployment specific details
-Replace .env with env_needrenameto(.env)
-Start the service "node CMSBot.js"
-Bot will listen to Port 3000
+>* Clone the repo git clone https://github.com/isenlin/webexteams-cms-botkit.git
+>* Install the node modules used in the project npm install
+>* Edit env_needrenameto(.env) with your deployment specific details
+>* Replace .env with env_needrenameto(.env)
+>* Start the service "node CMSBot.js"
+>* Bot will listen to Port 3000
 
 # (Option)Environment Variables
 If you don't want to set .env, you can use environment variables
-ACCESS_TOKEN=XXXXXXXXXXXXXXX
-DEBUG=sparkbot*,samples*
-BOT_NICKNAME=CMSBot
-SECRET=Not that secret !
-PUBLIC_URL=https://XXX.XXX.XXX.XXX
-CMS_ROOMNAME=vmsuser1.Room  //it`s just for default.unimportant.
-CMS_USERNAME=test  //CMS WebAdmin UserName
-CMS_PASSWORD=test  //CMS WebAdmin Password
-CMS_HTTPS=https://vms.vega-global.com.tw:446   //CMS WebAdmin Address and Port
+>* ACCESS_TOKEN=XXXXXXXXXXXXXXX  //Bot ACCESS_TOKEN
+>* DEBUG=sparkbot*,samples*
+>* BOT_NICKNAME=CMSBot
+>* SECRET=Not that secret !
+>* PUBLIC_URL=https://XXX.XXX.XXX.XXX
+>* CMS_ROOMNAME=vmsuser1.Room  //it`s just for default.unimportant.
+>* CMS_USERNAME=test  //CMS WebAdmin UserName
+>* CMS_PASSWORD=test  //CMS WebAdmin Password
+>* CMS_HTTPS=https://vms.vega-global.com.tw:446   //CMS WebAdmin Address and Port
+
+#Instruction Set
+Use the help command to get all the instructions
