@@ -6,8 +6,10 @@ Applicable conditions: Temporary meeting is very urgent or the meeting order of 
 >* 2.Can quickly know if the participants are ready
 
 # Main documents:
->* 1.everrichbot.js : main program
->* 2.env : Parameter content
+>* .CMSBot.js : main program
+>* .env : Parameter content
+>* SetRoom.js : Set up a temporary meeting and generate a RoomID
+>* GetRoom.js : Bot uses RoomID to gain temporary meeting control
 
 # Requirements
 >* node.js
