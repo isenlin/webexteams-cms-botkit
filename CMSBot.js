@@ -19,8 +19,10 @@ const bodyParser = require('body-parser');
 //module
 var GetRoomID = require("./GetRoom.js");
 var SetRoomID = require("./SetRoom.js");
+var Recording = require("./Recording.js");
 GetRoomID=new GetRoomID();
 SetRoomID=new SetRoomID();
+Recording=new Recording();
 
 //Buffer String
 var listtxt = '';
@@ -137,6 +139,22 @@ controller.hears(['^getlist'], 'direct_message,direct_mention', function(bot, me
     });    
 
     
+});
+
+// CMS Recording
+//
+controller.hears(['^recstart'], 'direct_message,direct_mention', function(bot, message) {
+    function msg(msg) {
+        bot.reply(message,msg);
+    }
+    Recording.start("recstart",msg);
+});
+
+controller.hears(['^recstop'], 'direct_message,direct_mention', function(bot, message) {
+    function msg(msg) {
+        bot.reply(message,msg);
+    }
+    Recording.stop("recstart",msg);
 });
 
 //
