@@ -84,7 +84,7 @@ controller.setupWebserver(port, function (err, webserver) {
 // Help command
 //
 controller.hears(['^help'], 'direct_message,direct_mention', function(bot, message) {
-    bot.reply(message, "Hi, I am the Quick CMS Control Bot !\n\n Type `joinroom [room_name]` to join a CMS Room. \n\nType `setroom [room_name]` to creat a Meeting Room ID. \n\n Type `getlist` to get the name of the person in the CMS meeting \n\n Type `call [number or IP or SIP URI]` to dial to the video host (simplified or IP) . \n\n You can Type `hello` to find me");
+    bot.reply(message, "Hi, I am the Quick CMS Control Bot !\n\n Type `joinroom [room_name]` to join a CMS Room. \n\nType `setroom [room_name]` to creat a Meeting Room ID. \n\n Type `getlist` to get the name of the person in the CMS meeting \n\n Type `call [number or IP or SIP URI]` to dial to the video host (simplified or IP) . \n\n Type `recstart` or `recstop` to control Recording function. \n\n You can Type `hello` to find me");
 });
 
 //
