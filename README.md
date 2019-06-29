@@ -20,6 +20,7 @@ More advanced
 >* .env : Parameter content
 >* SetRoom.js : Set up a temporary meeting and generate a RoomID
 >* GetRoom.js : Bot uses RoomID to gain temporary meeting control
+>* Recording.js : Bot control recording function
 
 # Requirements
 >* node.js
@@ -48,4 +49,4 @@ If you don't want to set .env, you can use environment variables
 >* CMS_HTTPS=https://vms.vega-global.com.tw:446   //CMS WebAdmin Address and Port
 
 #Instruction Set
-Use the help command to get all the instructions
+Use the `help` command to get all the instructions
